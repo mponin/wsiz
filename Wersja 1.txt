@@ -1,0 +1,40 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\D964655\\Downloads\\chromedriver_win32\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+		
+		String url = "https://web2.0calc.com/";
+		
+		driver.manage().window().maximize();
+		
+		driver.get(url);
+		
+		Thread.sleep(4000);
+		
+		//driver.findElement(By.xpath("//button[@id='Btn1']")).click();
+		
+		WebElement btn1 = driver.findElement(By.xpath("//button[@id='Btn1']"));
+		btn1.click();
+		
+		WebElement BtnPlus = driver.findElement(By.xpath("//button[@id='BtnPlus']"));
+		
+		WebElement btn2 = driver.findElement(By.xpath("//button[@id='Btn2']"));
+		btn2.click();
+		
+		Thread.sleep(8000);
+		
+		driver.close();
+	}
+
+}
