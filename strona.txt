@@ -1,0 +1,21 @@
+﻿<html>
+<body>
+
+<!-- wersja 1.1 -->
+
+<p>Wersja 1.1</p>
+
+<h1>TESTER OPROGRMOWANIA</h1>
+
+<h2>studia podyplomowe</h2>
+
+<h3>Mariusz</h3>
+
+
+
+<p>Studia nakierowane są na budowanie kompetencji z zakresu organizacji i prowadzenia testów oprogramowania komputerowego. W oparciu o przykłady i praktyczne zagadnienia, a także studia przypadku zostaną przedstawione kluczowe techniki związane z planowaniem testów oprogramowania zarówno w zespołach pracujących według metodyk klasycznych jak i według metodyk zwinnych. Zakres studiów obejmuje także automatyzację testów i prowadzenie testów oprogramowania dla urządzeń mobilnych. Zostaną również przekazane najważniejsze kompetencje miękkie związane z pracą testerów w zespołach projektowych.</p>
+
+
+
+</body>
+</html>
